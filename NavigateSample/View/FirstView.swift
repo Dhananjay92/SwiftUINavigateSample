@@ -8,7 +8,6 @@
 import SwiftUI
 
 struct FirstView: View {
-// @EnvironmentObject var appState: NavigateStateController
  @ObservedObject var appState = NavigateStateController.shared
     var body: some View {
      Button {
